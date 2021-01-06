@@ -30,7 +30,7 @@ header {
 }
 
 .lower {
-  
+  display: flex;
 }
 
 .skills h1 {
@@ -48,7 +48,29 @@ header {
 }
 
 .quotes {
-    display: inline-block;
+   
     
+   
+    height:473px;
+    background-color: rgba(0, 0, 0, 0.822);
+    padding-right: 100px;
     
+   
+    
+}
+
+.quotes h1 {
+    color:rgb(255, 0, 0);
+    font-style: italic;
+    
+    margin-top: 0px;
+    
+    text-align: center;
+}
+
+.quotes li {
+    list-style-type:none;
+    color:rgb(25, 0, 255);
+    font-size: large;
+    font-style: oblique;
 }
