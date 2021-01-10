@@ -74,3 +74,36 @@ header {
     font-size: large;
     font-style: oblique;
 }
+
+
+.contact-me {
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-instagram {
+    background: #f3288d;
+    color: white;
+  }
+  
+  .fa-whatsapp {
+      background:teal;
+      color:white;
+  }
+
+  .fa-linkedin {
+      background: #0c1486;
+      color:white;
+  }
