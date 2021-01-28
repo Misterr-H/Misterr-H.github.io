@@ -1,9 +1,6 @@
+<!DOCTYPE html>
 <html>
-<script>
-    function pop() {
-        alert("Backend not done yet. Sorry for inconvenience.");
-    }
-</script>
+    <script src="script.js"></script>
 <head>
     <title>Himanshu's Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
@@ -12,7 +9,18 @@
 
 <body>
     <div class="upper">
+        
         <header>
+            <div id="nav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closebtn()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="#">Skills</a>
+                    <a href="contact-me.html">Contact Me</a>
+                </div>
+            </div>
+            <span style="font-size:50px;cursor:pointer;float:left" onclick="openNav()">&#9776;</span>
 
             Welcome to My Portfolio
 
@@ -42,35 +50,7 @@
         </div>
 
     </div>
-    <div class="contact-me">
-        <h1>Contact Me!</h1>
-        <a href="https://www.instagram.com/0._.himanshu._.0" class="fa fa-instagram" target="__blank"></a>
-        <a href="https://wa.me/message/DJXQJNO75INJA1" class="fa fa-whatsapp" target="__blank"></a>
-        <a href="https://www.linkedin.com/in/himanshu-saini-9821631b1" class="fa fa-linkedin" target="__blank"></a>
-        <br>
-        <h1>OR</h1>
-        <br>
-        <h3>Send a message to me below:</h3>
-        <br>
-
-        <form action="send.php" method="post">
-            <label for="name">Name:</label>
-            <input id="name" type="text" name="name" placeholder="Your Name">
-            <br>
-            <label for="email">Email:</label>
-            <input id="email" type="email" name="email" placeholder="Your Email">
-            <br>
-            <label for="subject">Subject:</label>
-            <input id="subject" type="text" name="subject" placeholder="Enter Subject">
-            <br>
-            <label for="message">Your Message:</label>
-            <br>
-            <textarea id="message" name="message" placeholder="Your Message here" style="height: 200px;"></textarea>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
-
-    </div>
+    
 
 </body>
 
