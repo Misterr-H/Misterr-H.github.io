@@ -19,13 +19,13 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
-    $mail->Username = 'mister.h.technologies@gmail.com'; // YOUR gmail email
-    $mail->Password = '$Hs913271$gm'; // YOUR gmail password
+    $mail->Username = 'Email_Address'; // YOUR gmail email
+    $mail->Password = 'Password_here'; // YOUR gmail password
 
     // Sender and recipient settings
-    $mail->setFrom('mister.h.technologies@gmail.com', 'Sender');
-    $mail->addAddress('hs913271@gmail.com', 'Receiver Name');
-    $mail->addReplyTo('mister.h.technologies@gmail.com', 'Sender'); // to set the reply to
+    $mail->setFrom('mail@gmail.com', 'Sender');
+    $mail->addAddress('to_mail@gmail.com', 'Receiver Name');
+    $mail->addReplyTo('mail@gmail.com', 'Sender'); // to set the reply to
 
     // Setting the email content
     $mail->IsHTML(true);
